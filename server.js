@@ -9,7 +9,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://bfin-admin.onrender.com",
+    origin: "https://admin.bjfinzzonline.online",
     credentials: true,
     allowedHeaders: ["Content-Type", "Authorization"],
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
